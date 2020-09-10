@@ -1,0 +1,19 @@
+<button mat-raised-button color="primary">New Recipe</button>
+<a *ngFor="let recipe of recipes">
+    <mat-card color="primary">
+        <mat-card-content>
+            <div class="container">
+                <div>
+                    <h3>{{recipe.name}}</h3>
+                    <span>{{recipe.description}}</span>
+                </div>
+                <span class="spacer"></span>
+                <div>
+                    <span class="spacer"></span>
+                    <img [src]="recipe.imagePath">
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</a>
+

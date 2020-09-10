@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    padding: 10px;
+}
+
+.container-child {
+    width: 50%;
+}

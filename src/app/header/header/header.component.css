@@ -1,0 +1,13 @@
+span {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header {
+    font-size: 20px;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
